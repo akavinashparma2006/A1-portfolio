@@ -464,5 +464,171 @@ body {
     text-decoration: underline;
 }
 
+.edu-table{
+  text-decoration: none;
+  border-collapse: collapse; 
+  border: 2px solid #333333;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 4px 20px 0 rgba(156, 153, 153, 0.803);
+  height: 300px;
+  width: 500px;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-Right-radius: 15px;
+
+  overflow: hidden;          
+  border: 1px solid #ebebeb; 
+
+
+}
+
+table th, 
+table td {
+  border: none;                  
+  padding: 12px 18px; 
+    
+ }
+.table-head{
+  background-color: #0f172a;
+  color: #ffffff;
+}
+#my{
+  color: #000000;
+  padding: 8px; 
+}
+
+
+.contact{
+  display: flex;
+}
+
+
+
+
+/* 1. Target the form container to center it or give it space */
+.info_contact {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* 2. Turn the form itself into a CSS Grid */
+.info_contact form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+  gap: 20px; /* Space between all elements */
+}
+
+/* 3. Global styling for all your input fields */
+.info_contact input,
+.info_contact select,
+.info_contact textarea {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  border: 1.5px solid #cccccc;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box; /* Ensures padding doesn't affect width calculations */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 4. Smooth focus effect when a user clicks into a field */
+.info_contact input:focus,
+.info_contact select:focus,
+.info_contact textarea:focus {
+  border-color: #009879;
+  box-shadow: 0 0 0 3px rgba(0, 152, 121, 0.15);
+}
+
+/* Custom styling adjustment specifically for the select dropdown */
+.info_contact select {
+  color: #555555;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* 5. Force the long text (textarea) & button to stretch across both columns */
+.info_contact textarea,
+.info_contact button {
+  grid-column: span 2; 
+  resize: vertical; /* Prevents users from breaking layout horizontally */
+}
+
+/* 6. Clean button styling */
+.info_contact button {
+  background-color: #3466db;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.info_contact button:hover {
+  background-color: #b3bbd6;
+}
+
+
+
+
+
+
+
+
+
+
+.simple-footer {
+  background-color: #1c1b1b;
+  color: #555555;
+  border-top: 1px solid #e0e0e0;
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+
+
+.footer-content {
+
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.simple-footer p {
+  margin: 0;
+}
+
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links li a {
+  color: #fffdfd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links li a:hover {
+  color: #878585; 
+}
+
 
 
