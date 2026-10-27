@@ -378,14 +378,10 @@ body {
     overflow: hidden;
     background-color: white;
     text-align: left;
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease;
+   
 }
 
-.card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-}
+
 
 
 .card-color {
